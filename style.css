@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 2em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #ad5e5e;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+
+section {
+    margin: 20px;
+}
+
+ul li::marker{
+    list-style-type: none;
+    padding:0 ;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #ad5e5e;
+    color: #d9ccbd
+}
